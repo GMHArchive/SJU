@@ -8,7 +8,7 @@ if path == "A" or "a":
     runDir = input("Where is the directory (Please use fullpath(C:/examplefol1/examplefol2/)")
     FilesInCWD = False
     CWD = os.getcwd()
-if path == "B" or "b":
+elif path == "B" or "b":
     FilesInCWD = True
     runDir = os.getcwd()
 gitQ = input("Is this from the TheSJWarriorArchive git repo?\n Yes or No?")
@@ -16,9 +16,9 @@ if gitQ == "yes" or "Yes":
      if FilesInCWD == False:
          filetree = os.listdir(runDir)
          shutil.copytree(filetree, CWD)
-     if FilesInCWD == True:
+     elif FilesInCWD == True:
          None
-if gitQ == "no" or "No":
+elif gitQ == "no" or "No":
     gitURL = "https://github.com/tajt-passerby/TheSJWarriorArchive/"
     if FilesInCWD == True:
         gitrepo = 'TheSJWarriorArchive'
@@ -29,7 +29,7 @@ if gitQ == "no" or "No":
         shutil.copytree(filetree, gitrepo)
         runDir = gitrepo
         os.chdir(runDir)
-    if FilesInCWD == False:
+    elif FilesInCWD == False:
         repodir = input("Where would you like your git repo? (Please use fullpath)")
         gitcommit = os.system('git clone ' + gitURL + " " + repodir)
         gitcommit
