@@ -1,17 +1,15 @@
-#roles
 #verification
 
 Server:
-  #welcome
+  #poll
   #rules-and-info
   #announcements
-  
-the mountain:
-  #vote-rushmore
+  #roles
+  #welcome
+  #jibe-night
 
 Management:
   #staff-info
-  #commands
   #admin-zone
   #promotions
   #reports
@@ -19,37 +17,31 @@ Management:
 
 Staff:
   #staff-announcements
-  #staff-zone
-  #badlands-chat
-  #comms-node
+  #content-creation
+  #staff-lounge
+  #staff-idea-box
   #bot-commands
-  #cigar-lounge
-
-TRAINING ZONE:
-  #announcements
-  #ally-info
   #ally-zone
-  #idea-box
 
 -goodlands-:
-  #hang-zone-4
+  #hang-zone
+  #debate-zone
   #infographics
-  #the-left-memes-better
   #bot-commands
   #jeb-zone
 
 Badlands Administration:
   #badlands-info
+  #badlands-chat
   #podium
-  #badlands-parties
   #moderator-zone
+  #badlands-parties
   #presidents-hall
 
 - Badlands -:
   #hang-zone-jr
   #pics-zone
   #bot-zone
-  #election-propaganda
   #worselands
   #super-secret-special-channel
 
@@ -59,15 +51,29 @@ special channels:
   #gulag-3
   #mod-zone
   #locked-out
+  #test
+  #pics-zone-old
 
 logs:
   #logs
   #wick-logs
 
 archived:
+  #hz-recent
+  #cigar-lounge
+  #election-propaganda
+  #announcements
+  #id4a-box
+  #ally-info
+  #hz4
+  #announcements-old
+  #executive-lounge-old
+  #commands
+  #the-left-memes-better
+  #vote-rushmore
+  #test-channel
   #content-feed
   #gulag
-  #test-channel
   #national-badlands-party
   #starboard
   #gaming
@@ -79,10 +85,10 @@ archived:
   #debate-zone
   #daycare-timeout
   #jebs-godly-mountain
-  #jibe-night
   #debate-zone
   #bishop-n-gilbert-n-jabbz-private-channel-no-looksies
   #front-page
+  #staff-announcements
   #6th-house-society
   #banned-memes
   #staff-zone-old
@@ -95,8 +101,8 @@ archived:
   #comms-node
   #hall-of-shame
   #debate-room
-  #hang-zone-1
-  #hang-zone-2
+  #hz1
+  #hz2
   #modlogs
   #staff-furry-rp
   #interview-room-dead
